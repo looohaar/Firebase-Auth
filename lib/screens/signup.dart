@@ -120,7 +120,7 @@ final secondName= TextFormField(
   final emailField= TextFormField(
     cursorColor: Colors.white,
     style: TextStyle(color: Colors.white.withOpacity(0.9)),
-    autofocus: true,
+    autofocus: false,
     
     controller: emailController,
     keyboardType: TextInputType.emailAddress,
